@@ -1,0 +1,25 @@
+https://getbootstrap.com.br/
+
+Puxando o bootstrap:
+    - Bootstrap.css
+        ° Você tem o arquivo de facil leitura do css, mas é o mais pesado
+    - Bootstrap.min.css
+        ° Você tem o arquivo minificado, mais leve porem dificil leitura e modificação
+    - Link CDN
+        ° Não tem arquivo na pasta do site (peso = zero). Puxa o bootstrap do servidor mais proximo do cliente (Mais rápido), mas precisa estar com internet pra trabalhar localmente.
+
+Itens obrigatórios em todos os códigos que utilizam do Bootstrap:
+    - HTML
+        ° <!DOCTYPE html> => Na linha 1 do código.
+        ° <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> => No "<head>"
+
+Utilização:
+    <table> => Precisa inserir "class="table""
+        ° table-striped => Alterna o fundo da tabela
+        ° table-bordered => Adiciona uma borda na tabela
+        ° table-hover => Muda a cor ao passar com o mouse
+        ° table-condensed => Corta o padding pela metade
+        ° table-responsive => Torna a tabela responsiva
+
+    class="container" => conteúdo responsivo de largura limitada
+    class="container-fluid" => largura fluida
